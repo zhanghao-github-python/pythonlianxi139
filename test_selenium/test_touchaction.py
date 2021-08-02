@@ -24,7 +24,7 @@ class TestTouchAction():
 
     def setup(self):
         option = webdriver.ChromeOptions()
-        option.add_experimental_option("w3c", False)
+        option.add_experimental_option('w3c', False)
         self.driver = webdriver.Chrome(options=option)
         self.driver.implicitly_wait(5)
 
